@@ -1,0 +1,11 @@
+.navBarWrapper{
+    background-color: rgb(92, 206, 92);
+    padding: 1%;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.signIn{
+    cursor: pointer;
+}

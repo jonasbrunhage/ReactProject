@@ -1,8 +1,10 @@
 import { Routes } from '../src/routes/Routes'
+import { NavBar } from '../src/components/navbar/NavBar'
+import './shared/css/GlobalCSS.css'
 function App() {
   return (
     <Routes>
-      <h1>Start</h1>
+      <NavBar />
     </Routes>
   );
 }
