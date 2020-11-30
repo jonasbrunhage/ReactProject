@@ -1,8 +1,9 @@
+import { Routes } from '../src/routes/Routes'
 function App() {
   return (
-    <div>
+    <Routes>
       <h1>Start</h1>
-    </div>
+    </Routes>
   );
 }
 
