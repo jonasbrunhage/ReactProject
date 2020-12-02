@@ -1,11 +1,23 @@
 .navBarWrapper{
     background-color: rgb(92, 206, 92);
     padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 .logo{
     width: 80px;
     cursor: pointer;
 }
 .signIn{
+    cursor: pointer;
+    grid-column: 9/10;
+    align-self: center;
+    
+}
+.profileName{
+    align-self: center;
+    grid-column: 9/10;
+}
+.logout{
     cursor: pointer;
 }
