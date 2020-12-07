@@ -21,3 +21,8 @@
 .logout{
     cursor: pointer;
 }
+.pokemon{
+    cursor: pointer;
+    align-self: center;
+    grid-column: 3/4;
+}

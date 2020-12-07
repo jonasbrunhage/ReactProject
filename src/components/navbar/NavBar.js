@@ -31,6 +31,7 @@ export const NavBar = () => {
     return (
         <div className="navBarWrapper">
             <img onClick={() => history.push("/home")} className="logo" src={Logo} alt={"Error"} />
+            <span onClick={() => history.push("/pokemon")} className="pokemon">Search Pokemon</span>
 
             {displayUser()}
         </div>
