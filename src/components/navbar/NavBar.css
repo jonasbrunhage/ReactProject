@@ -26,3 +26,12 @@
     align-self: center;
     grid-column: 3/4;
 }
+.pokeImg{
+    width: 150px;
+    background-color: khaki;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    
+}

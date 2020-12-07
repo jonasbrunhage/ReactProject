@@ -43,11 +43,11 @@ export const PokemonView = () => {
             <h1>Pokemon View</h1>
             <input type="text" onChange={(event) => setSearchCharacter(event.target.value)} placeholder="Type in Pokemon name" />
             <button type="submit" onClick={() => setSearch(searchCharacters)}>Search</button>
-
-            <img src={searchedPokemon?.sprites?.front_default} alt="error" />
-            <h2>name: {searchedPokemon?.name}</h2>
-            <h2>weight: {searchedPokemon?.weight} lb</h2>
-
+            <section>
+                <img className="pokeImg" src={searchedPokemon?.sprites?.front_default} alt="" />
+                <h2>Name: {searchedPokemon?.name}</h2>
+                <h2>Weight: {searchedPokemon?.weight} lb</h2>
+            </section>
             <h2>Here is some examples of pokemons..</h2>
             {pokemonList?.results?.map((pokemon, index) => (
                 <div key={index}>
